@@ -1120,22 +1120,6 @@ body {
     border-bottom: 2px solid #8B4513;
 }
 
-.resume-logo {
-    margin-bottom: 1.5rem;
-}
-
-.resume-logo .logo-text {
-    font-size: 3rem;
-    font-weight: 700;
-    color: #DAA520; /* Gold color */
-    font-family: 'Inter', sans-serif;
-    letter-spacing: 2px;
-    display: inline-block;
-    padding: 1rem 2rem;
-    border: 2px solid #DAA520;
-    border-radius: 0;
-    background: rgba(218, 165, 32, 0.05);
-}
 
 .resume-header h3 {
     font-size: 2rem;
