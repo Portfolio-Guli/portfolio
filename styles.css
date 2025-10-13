@@ -50,6 +50,20 @@ body {
     align-items: center;
 }
 
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo-text {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #DAA520; /* Gold color */
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 1px;
+}
+
 .nav-logo h2 {
     color: var(--primary-black);
     font-weight: 300;
@@ -1087,4 +1101,98 @@ body {
     .work-overlay p {
         font-size: 0.8rem;
     }
+}
+
+/* Resume Preview Styling */
+.resume-preview {
+    background: var(--pure-white);
+    border: 1px solid var(--border-light);
+    box-shadow: 0 4px 20px var(--shadow-soft);
+    padding: 3rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.resume-header {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid #8B4513;
+}
+
+.resume-logo {
+    margin-bottom: 1.5rem;
+}
+
+.resume-logo .logo-text {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #DAA520; /* Gold color */
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 2px;
+    display: inline-block;
+    padding: 1rem 2rem;
+    border: 2px solid #DAA520;
+    border-radius: 0;
+    background: rgba(218, 165, 32, 0.05);
+}
+
+.resume-header h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--primary-black);
+    margin-bottom: 1rem;
+}
+
+.resume-contact {
+    color: var(--text-light);
+    font-size: 1rem;
+}
+
+.resume-section {
+    margin-bottom: 2.5rem;
+}
+
+.resume-section h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #8B4513;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.resume-item {
+    margin-bottom: 1.5rem;
+    padding-left: 1rem;
+    border-left: 3px solid var(--border-light);
+}
+
+.resume-item strong {
+    color: var(--primary-black);
+    font-weight: 600;
+}
+
+.resume-item em {
+    color: var(--text-light);
+    font-style: normal;
+    font-size: 0.9rem;
+}
+
+.resume-item ul {
+    margin-top: 0.5rem;
+    padding-left: 1.5rem;
+}
+
+.resume-item li {
+    margin-bottom: 0.5rem;
+    color: var(--text-light);
+    line-height: 1.5;
+}
+
+.download-center {
+    text-align: center;
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border-light);
 }
